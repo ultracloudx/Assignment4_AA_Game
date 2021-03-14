@@ -1,0 +1,59 @@
+Intro:
+-------
+PlayerPrefs:
+String PlayerNAME, float RotationSPEED, float PinSPEED, int MaxLIVES, int MaxTIME
+[ ] 
+[x] Name Menu (New Game)
+	[x] Inputfield
+		[x] Name
+		[x] Set PlayerPref
+[ ] Instructions
+[ ] Load Game
+	[ ] Loads save data from PlayerPrefs.
+		-If player applies settings or starts new game, load game is overwritten and unaccessible.
+[x] Settings Menu
+	[x] Sliders
+		[x] Slider for rotation speed
+			[x] Set PlayerPref
+		[x] Slider for pin speed
+			[x] Set PlayerPref
+	[x] Dropdown
+		[x] Dropdown for lives
+			[x] Set PlayerPref
+		[x] Dropdown for playtime
+			[x] Set PlayerPref
+	[x] Checkboxes/Toggles
+		[x] Music - set box to toggle if audio volume is 0 or default (0.15)
+	[x] Buttons
+		[x] Back
+		[x] Apply
+
+[x] Quit Game
+	[x] No button
+	[x] Yes Button
+
+Game Scene:
+-----------
+[x] Score
+[x] Name
+[ ] Lives
+	[x] Lives Selected
+	[ ] Lives Remaining
+[x] Clock
+
+[ ] Pause Screen
+	[ ] Buttons
+		[x] Resume
+		[x] Music
+		[ ] Save & Quit
+		[x] Quit
+
+Exit Scene:
+-----------
+[ ] Results
+	[ ] Final Score
+	[ ] Time remaining [ ] Time Selected
+	[ ] Lives Selected [ ] Pin Speed [ ] Rotator Speed
+[x] Credits
+[x] Option to play again or Quit
+
